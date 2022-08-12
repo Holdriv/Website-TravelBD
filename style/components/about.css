@@ -1,0 +1,50 @@
+.about h2{
+    font-size: 80px;
+    font-weight: 600;
+    color:  #020953;
+    margin-bottom: 20px;
+}
+.about h3{
+    font-size: 32px;
+    font-weight: 400;
+    color:  #020953;
+    margin-bottom: 20px;
+}
+.about p{
+    font-size: 32px;
+    font-weight: 300;
+    color:  #060A40;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    width: 40vw;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 70px;
+}
+.about>div{
+    margin-right: 50px;
+}
+.about-links{
+    display: flex;
+    align-items: center;
+}
+.about-links a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+.about-links img{
+    transition: 0.4s;
+}
+.about-links:hover a{
+    color: #FFC800;
+}
+.about-links:hover img{
+    margin-left: 20px;
+    filter: invert(70%) sepia(52%) saturate(1191%) hue-rotate(0deg) brightness(106%) contrast(105%);
+}

@@ -1,0 +1,41 @@
+.our h2{
+    font-size: 80px;
+    font-weight: 600;
+    color:  #020953;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}   
+.our h3{
+    margin-left: 50px;
+    font-size: 32px;
+    color: #060A3F;
+}
+.our{
+    padding: 50px 70px;
+}
+.our-txt{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+.our-txt>div{
+    transition: 0.4s;
+    text-align: center
+}
+.our-txt>div h4, p{
+    opacity: 0;
+    transition: 0.6s;
+}
+.our-txt>div:hover h4{
+    opacity: 1;
+}
+.our-txt>div:hover p{
+    opacity: 1;
+}
+.our-txt h4{
+    font-size: 35px;
+    font-weight: 600;
+    color:  #040E27;
+    margin: 20px 0px;
+}

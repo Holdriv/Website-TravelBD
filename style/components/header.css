@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    padding: 50px 70px;
+    justify-content: space-between;
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.header a:hover{
+    color: #FFC800;
+}
+.back{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}

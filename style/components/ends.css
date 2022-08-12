@@ -1,0 +1,75 @@
+.ends{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px;
+    background-color: #040E27;
+    margin-top: 60px;
+}
+.ends h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+.ends>div{
+    width: 24%;
+}
+.ends-links{
+    display: flex;
+    flex-direction: column;
+}
+.ends-links a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #fff;
+}
+.ends span{
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+.ends h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ends-links-left{
+    display: flex;
+    align-items: center;
+}
+.ends-links-left a:first-child{
+    width: 5px;
+    filter: invert(1);
+    margin-right: 20px;
+}
+.ends-links-left a{
+    margin-left: 10px;
+    transition: 0.4s;
+    margin-top: 10px;
+}
+.ends-links a:hover{
+    color: #FFC800;
+}
+.ends-links-right{
+    margin-top: 53px;
+}
+.ends button{
+    width: 80px;
+    height: 47px;
+    background-color: #FFC800;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+.ends input{
+    width: 13vw;
+    height:  44px;
+    padding-left: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    background-color: #040E27;
+    border: 1px solid #aaa;
+}

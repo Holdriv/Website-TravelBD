@@ -1,0 +1,48 @@
+.destination h2{
+    font-size: 80px;
+    font-weight: 600;
+    color:  #020953;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}   
+.destination h3{
+    margin-left: 50px;
+    font-size: 32px;
+    color: #060A3F;
+}
+.destination{
+    padding: 50px 70px 50px 30px;
+}
+
+.destination-txt{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.destination-txt>div{
+    position: relative;
+    width: 30%;
+    margin-top: 30px;
+}
+.dest-hidden{
+    text-align: center;
+}
+.dest-hidden h4{
+    margin-top: 10px;
+}
+.dest-hidden span{
+    color: #FFC800;
+}
+.dest-hidden{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.destination-txt>div:hover .dest-hidden{
+    opacity: 1;
+    bottom: 50px;
+}

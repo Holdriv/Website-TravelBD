@@ -1,0 +1,51 @@
+.main h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: #fff;
+}
+.main h2{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.main{
+    padding: 50px 70px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.main button{
+    width: 300px;
+    height: 80px;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+.main button{
+    animation: 2s infinite alternate slide;
+}
+@keyframes slide {
+    from {
+      opacity: 0.1;
+      margin-left: 0px;
+    }
+  
+    to {
+      opacity: 1;
+      margin-left: 50px;
+    }
+  }
+.main-icons span{
+    writing-mode: tb-rl;
+    transform:rotate(360deg);
+    color: #fff;
+    margin-bottom: 10px;
+}
+.main-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

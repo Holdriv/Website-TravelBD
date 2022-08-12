@@ -1,0 +1,25 @@
+.where{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #040E27;
+}
+.where span{
+    color: #fff;
+    font-size: 25px;
+}
+.where input{
+    width: 220px;
+    height: 55px;
+    background-color: #040E27;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding-left: 10px;
+}
+.where button{
+    background-color: #FFC800;
+    width: 150px;
+    height: 57px;
+    border-radius: 8px;
+}
